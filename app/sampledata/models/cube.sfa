@@ -1,0 +1,31 @@
+{
+   bound_relative_root: {
+      x: 0.5,
+      y: 0,
+      z: 0.5,
+   },
+   materials: [
+      {
+         name: "Cube material",
+         parameters: [
+                 {
+                     type: "float4",
+                     name: "color"
+                 }
+             ],
+         source: "sampledata/models/unlit_material.mat",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/models/cube.gltf",
+      name: "cube",
+      recenter: "root",
+   },
+   version: "0.52:1",
+}
