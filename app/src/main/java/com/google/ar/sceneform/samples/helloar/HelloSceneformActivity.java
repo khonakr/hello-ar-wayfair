@@ -144,7 +144,7 @@ public class HelloSceneformActivity extends AppCompatActivity {
                     modelNode.setParent(anchorNode);
                     modelNode.setRenderable(modelRenderable);
                     // Wayfair models are of correct scale and dimensions already
-                    // Disable Scale controller of a TransformableNode in order to allow model scaling / resizing
+                    // Disable Scale controller of a TransformableNode in order to prevent model scaling
                     modelNode.getScaleController().setEnabled(false);
                     modelNode.select();
 
