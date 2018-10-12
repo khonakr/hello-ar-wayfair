@@ -21,4 +21,3 @@ https://github.com/google-ar/sceneform-android-sdk
 
 You can find the iOS equivalent sample code here:
 https://github.com/zgay/iOSHackathonModelViewer
-![](iOSDemo.gif)
